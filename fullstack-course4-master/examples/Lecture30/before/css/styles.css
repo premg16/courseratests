@@ -81,10 +81,54 @@ margin-top: 5px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f
+  border: 1px solid #61122f;
+  align: right center;
 }
 
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px)  {
+
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p {
+    text-transform: uppercase;
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    height: 20px;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margihn-right: 5px;
+  }
 }
